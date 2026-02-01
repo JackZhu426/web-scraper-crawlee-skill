@@ -29,18 +29,18 @@ Claude Code discovers skills by scanning for `SKILL.md` files in specific direct
 ```bash
 # Personal scope (all your projects)
 cd ~/.claude/skills
-git clone https://github.com/YOUR_USERNAME/web-scraper-builder-skill.git web-scraper-builder
+git clone https://github.com/JackZhu426/web-scraper-crawlee-skill.git
 
 # Or project scope (current project only)
 cd your-project/.claude/skills
-git clone https://github.com/YOUR_USERNAME/web-scraper-builder-skill.git web-scraper-builder
+git clone https://github.com/JackZhu426/web-scraper-crawlee-skill.git
 ```
 
 ### Option 2: Download and copy
 
 ```bash
 # Download/clone anywhere
-git clone https://github.com/YOUR_USERNAME/web-scraper-builder-skill.git
+git clone https://github.com/JackZhu426/web-scraper-crawlee-skill.git
 
 # Copy to Claude skills directory
 cp -r web-scraper-builder-skill ~/.claude/skills/web-scraper-builder
